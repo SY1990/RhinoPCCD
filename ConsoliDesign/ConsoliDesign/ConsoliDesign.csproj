@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug32</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{650D1ED4-4F40-44ED-A7C9-D6EA693896F1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsoliDesign</RootNamespace>
+    <AssemblyName>ConsoliDesign</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug32|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug64|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GH_IO">
+      <HintPath>C:\Program Files\Common Files\McNeel\Rhinoceros\5.0\Plug-ins\Grasshopper (b45a29b1-4343-4035-989e-044e8580d9cf)\0.9.76.0\GH_IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Grasshopper">
+      <HintPath>C:\Program Files\Common Files\McNeel\Rhinoceros\5.0\Plug-ins\Grasshopper (b45a29b1-4343-4035-989e-044e8580d9cf)\0.9.76.0\Grasshopper.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="RhinoCommon">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>c:\Program Files\Rhinoceros 5 (64-bit)\System\rhinocommon.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\ConsoliDesignCommand.cs" />
+    <Compile Include="ConsoliDesignPlugIn.cs" />
+    <Compile Include="Data\Product.cs" />
+    <Compile Include="Forms\PCCDAddFS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PCCDAddFS.Designer.cs">
+      <DependentUpon>PCCDAddFS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PCCDAddFunction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PCCDAddFunction.Designer.cs">
+      <DependentUpon>PCCDAddFunction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PCCDConsolidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PCCDConsolidation.Designer.cs">
+      <DependentUpon>PCCDConsolidation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PCCDInfoSetup_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PCCDInfoSetup_Edit.Designer.cs">
+      <DependentUpon>PCCDInfoSetup_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PCCDMainEntrance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PCCDMainEntrance.Designer.cs">
+      <DependentUpon>PCCDMainEntrance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PCCDInfoSetup_New.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Forms\PCCDInfoSetup_New.Designer.cs">
+      <DependentUpon>PCCDInfoSetup_New.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Forms\PCCDPrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PCCDPrinter.Designer.cs">
+      <DependentUpon>PCCDPrinter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PCCDSolve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PCCDSolve.Designer.cs">
+      <DependentUpon>PCCDSolve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Functions\CPCCD.cs" />
+    <Compile Include="Functions\GraphPlot.cs" />
+    <Compile Include="Functions\GAModuleDiv.cs" />
+    <Compile Include="Functions\MPCCD.cs" />
+    <Compile Include="Functions\NPCCD.cs" />
+    <Compile Include="Functions\XmlHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\PCCDAddFS.resx">
+      <DependentUpon>PCCDAddFS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PCCDAddFunction.resx">
+      <DependentUpon>PCCDAddFunction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PCCDConsolidation.resx">
+      <DependentUpon>PCCDConsolidation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PCCDInfoSetup_Edit.resx">
+      <DependentUpon>PCCDInfoSetup_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PCCDInfoSetup_New.resx">
+      <DependentUpon>PCCDInfoSetup_New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PCCDMainEntrance.resx">
+      <DependentUpon>PCCDMainEntrance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PCCDPrinter.resx">
+      <DependentUpon>PCCDPrinter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PCCDSolve.resx">
+      <DependentUpon>PCCDSolve.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>Copy "$(TargetPath)" "$(TargetDir)$(ProjectName).rhp"
+Erase "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug32|AnyCPU' ">
+    <StartArguments>
+    </StartArguments>
+    <StartAction>Program</StartAction>
+    <StartProgram>c:\Program Files (x86)\Rhinoceros 5\System\Rhino4.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup>
+    <FallbackCulture>en-US</FallbackCulture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug64|AnyCPU'">
+    <StartProgram>c:\Program Files\Rhinoceros 5 (64-bit)\System\Rhino.exe</StartProgram>
+    <StartArguments>
+    </StartArguments>
+    <StartAction>Program</StartAction>
+  </PropertyGroup>
+</Project>

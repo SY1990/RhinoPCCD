@@ -1,0 +1,273 @@
+﻿point  
+  ID: a57b508f-d164-4667-a669-24864ccbb63e (67)
+  Layer name: Default
+  Render Material: 
+    source = from layer
+    index = -1
+  Geometry:
+    Valid point.
+    Point at (-11,-125,0).
+polysurface  
+  ID: f79d85ce-1cc3-4603-8131-40e53906b2bd (66)
+  Object name: D shaft
+  Layer name: Default
+  Render Material: 
+    source = from obj
+    index = 11
+  Geometry:
+    Valid polysurface.
+    Closed solid polysurface with 6 surfaces.
+    Edge Tally:
+       12 manifold edges
+    Edge Tolerances: all 0
+    Vertex Tolerances: all 0
+    Render mesh: 6 fast meshes  104 vertices  71 polygons
+    Analysis mesh: none present
+polysurface  
+  ID: 0806f66b-8a7b-4355-9e38-188ab242751b (65)
+  Object name: Ball bearing
+  Layer name: Default
+  Render Material: 
+    source = from obj
+    index = 3
+  Geometry:
+    Valid polysurface.
+    Closed solid polysurface with 280 surfaces.
+    Edge Tally:
+       48 seam edges
+      140 singular edges
+      944 manifold edges
+      = 1132 total edges
+    Edge Tolerances: 0 to 0.000117478
+      median = 1.94061e-05 average = 2.27204e-05
+    Vertex Tolerances: 0 to 0.000117478
+      median = 1.94061e-05 average = 2.27204e-05
+    Render mesh: 280 fast meshes  30083 vertices  29356 polygons
+    Analysis mesh: none present
+polysurface  
+  ID: 5c3acc23-f584-44ca-8993-2f52f1b1a608 (64)
+  Object name: Spring
+  Layer name: Default
+  Render Material: 
+    source = from obj
+    index = 10
+  Geometry:
+    Valid polysurface.
+    Closed solid polysurface with 14 surfaces.
+    Edge Tally:
+       26 manifold edges
+    Edge Tolerances: all smaller than 0.000001
+    Vertex Tolerances: all smaller than 0.000001
+    Render mesh: 14 fast meshes  15651 vertices  15666 polygons
+    Analysis mesh: none present
+polysurface  
+  ID: faeac941-9606-4e2f-8afa-fb864ea97055 (63)
+  Object name: Hollow shaft
+  Layer name: Default
+  Render Material: 
+    source = from obj
+    index = 6
+  Geometry:
+    Valid polysurface.
+    Closed solid polysurface with 96 surfaces.
+    Edge Tally:
+       11 singular edges
+      209 manifold edges
+      = 220 total edges
+    Edge Tolerances: 0 to 0.000287779
+      median = 0 average = 1.78894e-05
+    Vertex Tolerances: 0 to 0.000287779
+      median = 0 average = 1.78894e-05
+    Render mesh: 96 fast meshes  6726 vertices  5842 polygons
+    Analysis mesh: none present
+polysurface  
+  ID: a387c53b-84ea-4e10-80f7-55bb1b53a759 (62)
+  Object name: Pedal
+  Layer name: Default
+  Render Material: 
+    source = from obj
+    index = -1
+  Geometry:
+    Valid polysurface.
+    Closed solid polysurface with 70 surfaces.
+    Edge Tally:
+        8 singular edges
+      158 manifold edges
+      = 166 total edges
+    Edge Tolerances: 0 to 0.00031321
+      median = 0 average = 7.94975e-06
+    Vertex Tolerances: all smaller than 0.000001
+    Render mesh: 70 fast meshes  3668 vertices  3517 polygons
+    Analysis mesh: none present
+polysurface  
+  ID: e79a6717-f9a3-42be-96bb-157a3ae75107 (61)
+  Object name: Rubber ring
+  Layer name: Default
+  Render Material: 
+    source = from obj
+    index = 7
+  Geometry:
+    Valid polysurface.
+    Closed solid polysurface with 6 surfaces.
+    Edge Tally:
+       12 manifold edges
+    Edge Tolerances: 0 to 2.90181e-06
+      median = 2.54888e-06 average = 1.8169e-06
+    Vertex Tolerances: all 2.90181e-06
+    Render mesh: 6 fast meshes  696 vertices  516 polygons
+    Analysis mesh: none present
+polysurface  
+  ID: 4dfe765c-3a3e-4776-9ed8-a75bda12afbe (60)
+  Object name: Ring
+  Layer name: Default
+  Render Material: 
+    source = from obj
+    index = 8
+  Geometry:
+    Valid polysurface.
+    Closed solid polysurface with 22 surfaces.
+    Edge Tally:
+       60 manifold edges
+    Edge Tolerances: 0 to 1.73753e-06
+      median = 0 average = 1.97804e-07
+    Vertex Tolerances: all 1.73753e-06
+    Render mesh: 22 fast meshes  1144 vertices  933 polygons
+    Analysis mesh: none present
+polysurface  
+  ID: a6595d09-5581-4a02-8eaf-013451af5e22 (59)
+  Object name: Potential meter
+  Layer name: Default
+  Render Material: 
+    source = from obj
+    index = 2
+  Geometry:
+    Valid polysurface.
+    Closed solid polysurface with 127 surfaces.
+    Edge Tally:
+        2 singular edges
+      306 manifold edges
+      = 308 total edges
+    Edge Tolerances: 0 to 0.00028656
+      median = 0 average = 5.24761e-06
+    Vertex Tolerances: all smaller than 0.000001
+    Render mesh: 127 fast meshes  5758 vertices  5049 polygons
+    Analysis mesh: none present
+polysurface  
+  ID: 2cffff97-5e7b-4612-993c-5da59648f1c1 (58)
+  Object name: Left casing
+  Layer name: Default
+  Render Material: 
+    source = from obj
+    index = 1
+  Geometry:
+    Valid polysurface.
+    Polysurface with 197 surfaces.
+    Edge Tally:
+        8 boundary edges
+       10 singular edges
+      469 manifold edges
+      = 487 total edges
+    Edge Tolerances: 0 to 0.000394876
+      median = 0 average = 2.12518e-05
+    Vertex Tolerances: 0 to 0.000394876
+      median = 0 average = 2.12518e-05
+    Render mesh: 197 fast meshes  11755 vertices  11002 polygons
+    Analysis mesh: none present
+polysurface  
+  ID: 2850db6a-2111-4a78-8936-6a22fadf5a54 (57)
+  Object name: Rotation limit
+  Layer name: Default
+  Render Material: 
+    source = from obj
+    index = 9
+  Geometry:
+    Valid polysurface.
+    Polysurface with 107 surfaces.
+    Edge Tally:
+        8 boundary edges
+        5 singular edges
+      276 manifold edges
+      = 289 total edges
+    Edge Tolerances: 0 to 0.000306225
+      median = 0 average = 1.89769e-05
+    Vertex Tolerances: 0 to 0.000306225
+      median = 0 average = 1.89769e-05
+    Render mesh: 107 fast meshes  6424 vertices  5789 polygons
+    Analysis mesh: none present
+polysurface  
+  ID: c6050799-d7bb-4cce-b7a2-5d3a7bdf6719 (56)
+  Object name: lever
+  Layer name: Default
+  Render Material: 
+    source = from obj
+    index = 12
+  Geometry:
+    Valid polysurface.
+    Polysurface with 254 surfaces.
+    Edge Tally:
+      104 boundary edges
+        5 singular edges
+      502 manifold edges
+      = 611 total edges
+    Edge Tolerances: 0 to 0.000343323
+      median = 2.02341e-07 average = 2.8869e-05
+    Vertex Tolerances: 0 to 0.000343323
+      median = 2.02341e-07 average = 2.8869e-05
+    Render mesh: 254 fast meshes  11461 vertices  11012 polygons
+    Analysis mesh: none present
+polysurface  
+  ID: 585530ba-7b09-4b6f-8c5d-20c9e56dfd41 (55)
+  Object name: Pins_left
+  Layer name: Default
+  Render Material: 
+    source = from obj
+    index = 4
+  Geometry:
+    Valid polysurface.
+    Closed solid polysurface with 15 surfaces.
+    Edge Tally:
+        4 singular edges
+       31 manifold edges
+      = 35 total edges
+    Edge Tolerances: all smaller than 0.000001
+    Vertex Tolerances: all 2.92398e-07
+    Render mesh: 15 fast meshes  694 vertices  587 polygons
+    Analysis mesh: none present
+polysurface  
+  ID: d0f787d5-8cf1-4692-931b-4648b8fc1b82 (54)
+  Object name: Pins_Right
+  Layer name: Default
+  Render Material: 
+    source = from obj
+    index = 5
+  Geometry:
+    Valid polysurface.
+    Closed solid polysurface with 15 surfaces.
+    Edge Tally:
+        4 singular edges
+       31 manifold edges
+      = 35 total edges
+    Edge Tolerances: all smaller than 0.000001
+    Vertex Tolerances: all 2.92398e-07
+    Render mesh: 15 fast meshes  592 vertices  435 polygons
+    Analysis mesh: none present
+polysurface  
+  ID: 0a0eabd4-9899-48b9-879f-a02c3ea97d2c (53)
+  Object name: Right Casing
+  Layer name: Default
+  Render Material: 
+    source = from obj
+    index = 0
+  Geometry:
+    Valid polysurface.
+    Polysurface with 94 surfaces.
+    Edge Tally:
+       12 boundary edges
+        7 singular edges
+      201 manifold edges
+      = 220 total edges
+    Edge Tolerances: 0 to 4.83072e-05
+      median = 0 average = 3.20466e-06
+    Vertex Tolerances: all 4.83072e-05
+    Render mesh: 94 fast meshes  6684 vertices  6072 polygons
+    Analysis mesh: none present
